@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class Student_registration_form {
+public class StudentRegistrationForm {
 
     @BeforeAll
     static void beforeAll() {
@@ -27,7 +27,7 @@ public class Student_registration_form {
         String email = "test@mail.ru";
         String phoneNumber = "9999999999";
         String currentAddress = "Times Square Street, Block D, 175 apartment";
-        File file = new File("src/test.png");
+        File file = new File("src/test/resources/test.png");
 
         open("/automation-practice-form");
         executeJavaScript("$('#fixedban').remove()");
@@ -43,6 +43,8 @@ public class Student_registration_form {
         $(".react-datepicker__year-select").selectOption("1986");
         $(".react-datepicker__month-select").selectOption("September");
         $(".react-datepicker__day--028").click();
+        $("#subjectsContainer").click();
+        $("#subjectsInput").setValue("Computer Science").pressEnter();
         $("#hobbiesWrapper").$(byText("Sports")).click();
         $("#hobbiesWrapper").$(byText("Reading")).click();
         $("#hobbiesWrapper").$(byText("Music")).click();
@@ -60,12 +62,13 @@ public class Student_registration_form {
         $(".modal-body").shouldHave(text("female"));
         $(".modal-body").shouldHave(text(phoneNumber));
         $(".modal-body").shouldHave(text("Sports, Reading, Music"));
+        $(".modal-body").shouldHave(text("Computer Science"));
+        $(".modal-body").shouldHave(text("28 September,1986"));
+        $(".modal-body").shouldHave(text("test.png"));
+        $(".modal-body").shouldHave(text(currentAddress));
+        $(".modal-body").shouldHave(text("Haryana"));
+        $(".modal-body").shouldHave(text("Karnal"));
 
-
-
-
-
-        sleep(5000);
     }
 }
 
