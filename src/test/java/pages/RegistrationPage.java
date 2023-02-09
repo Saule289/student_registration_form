@@ -65,10 +65,10 @@ RegistrationResultsModal registrationResultsModal = new RegistrationResultsModal
         return this;
     }
 
-    public RegistrationPage setHobbies() {
-        $("#hobbiesWrapper").$(byText("Sports")).click();
-        $("#hobbiesWrapper").$(byText("Reading")).click();
-        $("#hobbiesWrapper").$(byText("Music")).click();
+    public RegistrationPage setHobbies(String hobby) {
+        $("#hobbiesWrapper").$(byText(hobby)).click();
+        $("#hobbiesWrapper").$(byText(hobby)).click();
+        $("#hobbiesWrapper").$(byText(hobby)).click();
 
         return this;
     }
@@ -85,16 +85,16 @@ RegistrationResultsModal registrationResultsModal = new RegistrationResultsModal
         return this;
     }
 
-    public RegistrationPage setState() {
+    public RegistrationPage setState(String state) {
         $("#state").click();
-        $("#state").$(byText("Haryana")).click();
+        $("#state").$(byText(state)).click();
 
         return this;
     }
 
-    public RegistrationPage setCity() {
+    public RegistrationPage setCity(String city) {
         $("#city").click();
-        $("#city").$(byText("Karnal")).click();
+        $("#city").$(byText(city)).click();
 
         return this;
     }
