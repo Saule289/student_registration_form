@@ -1,0 +1,1 @@
+{"uuid":"1e7c276a-0650-4141-a947-3c8b8648654b","name":"StudentRegistrationFormWithPageObjectWithJavaFaker","children":["be4f290f-09d5-44db-980a-4b2cb34d8042"],"befores":[{"name":"beforeAll","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1676712355190,"stop":1676712355212}],"afters":[],"start":1676712355146,"stop":1676712357758}

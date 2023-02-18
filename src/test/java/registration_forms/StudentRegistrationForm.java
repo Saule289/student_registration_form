@@ -15,7 +15,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 @Tag("remote")
 
-public class StudentRegistrationForm {
+public class StudentRegistrationForm extends TestBase{
 
     @BeforeAll
     static void beforeAll() {
