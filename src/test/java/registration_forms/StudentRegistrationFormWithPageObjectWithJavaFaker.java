@@ -2,14 +2,15 @@ package registration_forms;
 
 
 import com.github.javafaker.Faker;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-import pages.components.CityChoiceAsPerState;
 
-import java.util.Optional;
 
 import static pages.components.CityChoiceAsPerState.cityList;
 
+@Tag("remote")
 public class StudentRegistrationFormWithPageObjectWithJavaFaker extends TestBase {
+
 
     @Test
     void fillRegistrationForm() {
@@ -60,6 +61,5 @@ public class StudentRegistrationFormWithPageObjectWithJavaFaker extends TestBase
                 .verifyResults("State and City", state + " " + city);
 
     }
-
 
 }
