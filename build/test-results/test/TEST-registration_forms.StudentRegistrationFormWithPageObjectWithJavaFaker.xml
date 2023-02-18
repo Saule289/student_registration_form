@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="registration_forms.StudentRegistrationFormWithPageObjectWithJavaFaker" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-18T09:39:16" hostname="D-00505" time="26.266">
+<testsuite name="registration_forms.StudentRegistrationFormWithPageObjectWithJavaFaker" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-18T10:07:31" hostname="D-00505" time="15.834">
   <properties/>
-  <testcase name="fillRegistrationForm()" classname="registration_forms.StudentRegistrationFormWithPageObjectWithJavaFaker" time="26.266"/>
+  <testcase name="fillRegistrationForm()" classname="registration_forms.StudentRegistrationFormWithPageObjectWithJavaFaker" time="15.834"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=100.0.4896.60 Platform=LINUX
-[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.11.0
-[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.7.2 build revision: 4d4020c3b7
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: RemoteWebDriver -> RemoteWebDriver: chrome on LINUX (af9f20303f30a9aca2ee748c05a9848e)
-[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=RemoteWebDriver: chrome on LINUX (af9f20303f30a9aca2ee748c05a9848e),proxy=null,downloadsFolder=null] in 1 [size=1]
-[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
-]]></system-err>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>
