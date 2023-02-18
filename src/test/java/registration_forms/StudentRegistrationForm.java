@@ -15,17 +15,9 @@ import static com.codeborne.selenide.Selenide.*;
 
 @Tag("remote")
 
-public class StudentRegistrationForm extends TestBase{
+public class StudentRegistrationForm extends TestBase {
 
-    @BeforeAll
-    static void beforeAll() {
-        Configuration.baseUrl = "https://demoqa.com";
-        Configuration.holdBrowserOpen = true;
-        Configuration.browserSize = "1920x1080";
-
-    }
-
-    @Test
+     @Test
     void fillRegistrationForm() {
 
         String name = "Saule";

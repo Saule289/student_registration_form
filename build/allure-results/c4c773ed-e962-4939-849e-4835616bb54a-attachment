@@ -1,0 +1,4 @@
+[2023-02-18T09:39:25.432Z] [SEVERE] https://cdn.ad.plus/player/adplus.js 402:154 Uncaught TypeError: l(...).setup is not a function
+[2023-02-18T09:39:25.530Z] [SEVERE] https://demoqa.com/automation-practice-form - Refused to execute script from 'https://odr.mookie1.com/t/v2/sync?tagid=V2_790378&src.visitorId=9e7d9a9d-8350-416a-b6ff-d4318f285431&ssp=revcontent&gdpr=&gdpr_consent=' because its MIME type ('image/gif') is not executable.
+[2023-02-18T09:39:27.384Z] [SEVERE] https://demoqa.com/automation-practice-form - Access to XMLHttpRequest at 'https://api.rlcdn.com/api/identity/envelope?pid=13781' from origin 'https://demoqa.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[2023-02-18T09:39:27.384Z] [SEVERE] https://api.rlcdn.com/api/identity/envelope?pid=13781 - Failed to load resource: net::ERR_FAILED

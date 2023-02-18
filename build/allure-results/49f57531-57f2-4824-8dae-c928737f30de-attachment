@@ -1,0 +1,5 @@
+[2023-02-18T09:37:32.653Z] [SEVERE] https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js - Failed to load resource: net::ERR_CONNECTION_RESET
+[2023-02-18T09:37:32.656Z] [SEVERE] https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5889298451609146 - Failed to load resource: net::ERR_CONNECTION_RESET
+[2023-02-18T09:37:32.661Z] [SEVERE] https://www.googletagservices.com/tag/js/gpt.js - Failed to load resource: net::ERR_CONNECTION_RESET
+[2023-02-18T09:37:33.406Z] [SEVERE] https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j99&tid=UA-109033876-1&cid=948316647.1676713053&jid=1181605005&gjid=955607607&_gid=1706666874.1676713053&_u=YADAAEAAAAAAACAAI~&z=521306819 - Failed to load resource: net::ERR_CONNECTION_RESET
+[2023-02-18T09:37:34.043Z] [SEVERE] https://cdn.ad.plus/player/adplus.js - Failed to load resource: the server responded with a status of 499 (Request has been forbidden by antivirus)
